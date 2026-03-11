@@ -1,0 +1,22 @@
+{
+  "OIC_AUTH_URL": "",
+  "OIC_CLIENT_ID": "",
+  "OIC_CLIENT_SECRET": "",
+  "OIC_SCOPE": "",
+  "OIC_BASE_URL": "",
+  "OIC_INSTANCE": "",
+  "OIC_IMPORT_PROJECT_REL_PATH": "/projects/archive",
+  "MODE": "EXTERNAL",
+  "connections": { 
+    "restinvoke": {
+        "connectionurl": "",
+        "sec_username": "",
+        "sec_password": ""
+        }
+  },
+  "integrations": { 
+    "RETRIEVECONTACTS|01.00.0000": {
+      "status": "CONFIGURED"
+    }
+  }
+}
