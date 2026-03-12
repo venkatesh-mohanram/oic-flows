@@ -1,0 +1,3 @@
+output "TF_CONFIGURATION_VERSION" {
+  value = local.TF_CONFIGURATION_VERSION
+}
