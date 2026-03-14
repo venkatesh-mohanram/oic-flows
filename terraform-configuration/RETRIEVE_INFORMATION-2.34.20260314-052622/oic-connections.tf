@@ -70,7 +70,7 @@ resource "oic_oicconnection" "weatherconnection" {
 
   security_properties {
     property_name  = "accessTokenUsage"
-    property_value = "?APPID=${api-key}"
+    property_value = "?APPID=$${api-key}"
   } 
 
   depends_on = [oic_oicproject.retrieve_information_deploymentv2]
