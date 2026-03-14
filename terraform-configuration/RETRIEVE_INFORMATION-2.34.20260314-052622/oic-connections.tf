@@ -68,6 +68,10 @@ resource "oic_oicconnection" "weatherconnection" {
     property_value = var.connections["weatherconnection"]["sec_accesstoken"]
   }
 
+  security_properties {
+    property_name  = "accessTokenUsage"
+    property_value = "?APPID=${api-key}"
+  } 
 
   depends_on = [oic_oicproject.retrieve_information_deploymentv2]
 
