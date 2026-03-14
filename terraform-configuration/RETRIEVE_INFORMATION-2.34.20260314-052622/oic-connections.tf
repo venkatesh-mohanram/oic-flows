@@ -31,6 +31,7 @@ resource "oic_oicconnection" "restinvoke" {
   security_properties {
     property_name  = "password"
     property_value = var.connections["restinvoke"]["sec_password"]
+    version = var.connections["restinvoke"]["sec_password_version"]
   }
 
 
